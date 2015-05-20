@@ -1,0 +1,40 @@
+" javascript-libraries-syntax
+let g:used_javascript_libs = 'underscore,backbone,jquery'
+
+" scrooloose/syntastic
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_quiet_messages = { "type": "style" }
+
+" ctrlp.vim
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP'
+
+let g:solarized_termcolors=16
+
+syntax enable
+colorscheme solarized
+set background=dark
+
+" Easymotion
+let g:EasyMotion_do_mapping = 0 " Disable default mappings
+" Turn on case insensitive feature
+let g:EasyMotion_smartcase = 1
+nmap <Leader>w <Plug>(easymotion-w)
+nmap s <Plug>(easymotion-s)
+"nmap s <Plug>(easymotion-s2)
+nmap t <Plug>(easymotion-t2)
+map  / <Plug>(easymotion-sn)
+omap / <Plug>(easymotion-tn)
+map <Leader>l <Plug>(easymotion-lineforward)
+map <Leader>j <Plug>(easymotion-j)
+map <Leader>k <Plug>(easymotion-k)
+map <Leader>h <Plug>(easymotion-linebackward)
+
+let g:EasyMotion_startofline = 0 " keep cursor colum when JK motion
+
+" Swap : and ;
+nnoremap ; :
+

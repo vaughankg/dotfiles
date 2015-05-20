@@ -1,0 +1,10 @@
+" Define bundles via Github repos
+Plug 'pangloss/vim-javascript'
+Plug 'othree/javascript-libraries-syntax.vim'
+Plug 'bling/vim-airline'
+Plug 'Lokaltog/vim-easymotion'
+Plug 'briancollins/vim-jst'
+Plug 'Shougo/unite.vim'
+Plug 'guns/vim-clojure-static'
+Plug 'altercation/vim-colors-solarized'
+Plug 'tpope/vim-fireplace'
