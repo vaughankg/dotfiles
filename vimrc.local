@@ -12,11 +12,11 @@ let g:syntastic_quiet_messages = { "type": "style" }
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
 
-let g:solarized_termcolors=16
+"let g:solarized_termcolors=16
 
 syntax enable
 colorscheme solarized
-set background=dark
+set background=light
 
 " Easymotion
 let g:EasyMotion_do_mapping = 0 " Disable default mappings
@@ -44,5 +44,7 @@ map '; :Explore<CR>
 set mouse=a
 set pastetoggle=<F2>
 
-" set auotchdir
+set autochdir
+
+nnoremap <Leader>b :set buftype=<CR>
 
