@@ -25,3 +25,6 @@
   autosquash = true
 [include]
   path = ~/.gitconfig.local
+[user]
+	name = Vaughan Kelly Guy
+	email = vkellyguy@gmail.com
