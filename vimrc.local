@@ -53,3 +53,6 @@ nnoremap :w :set buftype= :w<CR>
 " visualbell
 set vb
 
+" for swift files, use 4 spaces per tab
+autocmd Filetype swift setlocal ts=4 sw=4
+
