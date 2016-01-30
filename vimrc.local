@@ -48,6 +48,8 @@ set autochdir
 
 nnoremap <Leader>b :set buftype=<CR>
 
+nnoremap :w :set buftype= :w<CR>
+
 " visualbell
 set vb
 
