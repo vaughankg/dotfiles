@@ -56,3 +56,5 @@ set vb
 " for swift files, use 4 spaces per tab
 autocmd Filetype swift setlocal ts=4 sw=4
 
+nnoremap <Leader><Tab> :bn<CR>
+
