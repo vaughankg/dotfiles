@@ -4,3 +4,4 @@ brew_tap 'caskroom/cask'
 brew_install_or_upgrade 'brew-cask'
 
 brew cask install google-chrome
+brew cask install iterm2
